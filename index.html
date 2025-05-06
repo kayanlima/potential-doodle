@@ -1,115 +1,173 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Casaco Masculino Premium</title>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Casaco de Inverno Masculino</title>
   <style>
     body {
-      font-family: 'Montserrat', sans-serif;
       margin: 0;
-      background-color: #f5f5f5;
+      font-family: 'Segoe UI', sans-serif;
+      background: #f5f5f5;
       color: #333;
     }
+
     header {
-      background-color: #000;
+      background: #111;
       color: white;
-      padding: 2rem;
+      padding: 30px 20px;
       text-align: center;
     }
+
     header h1 {
       margin: 0;
       font-size: 2.5rem;
     }
+
+    header p {
+      font-size: 1.1rem;
+      margin-top: 10px;
+      color: #bbb;
+    }
+
     .container {
       max-width: 1100px;
-      margin: 0 auto;
-      padding: 2rem;
+      margin: 40px auto;
+      padding: 0 20px;
     }
-    .gallery {
+
+    .highlight {
       display: flex;
       flex-wrap: wrap;
-      gap: 1rem;
+      gap: 30px;
+      align-items: center;
       justify-content: center;
     }
-    .gallery img {
-      width: 300px;
+
+    .highlight img {
+      max-width: 100%;
       border-radius: 10px;
-      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      box-shadow: 0 8px 16px rgba(0,0,0,0.2);
     }
-    .description {
-      margin-top: 2rem;
+
+    .highlight .text {
+      max-width: 500px;
+    }
+
+    .highlight .text h2 {
+      font-size: 2rem;
+      margin-bottom: 10px;
+    }
+
+    .highlight .text p {
+      font-size: 1.1rem;
       line-height: 1.6;
     }
-    .price {
-      font-size: 2rem;
-      font-weight: bold;
-      color: #27ae60;
-      margin-top: 1rem;
+
+    .features {
+      background: #fff;
+      padding: 40px 20px;
+      margin-top: 40px;
+      border-radius: 8px;
+      box-shadow: 0 0 20px rgba(0,0,0,0.05);
     }
-    .cta {
-      margin-top: 2rem;
+
+    .features h3 {
+      text-align: center;
+      margin-bottom: 30px;
+      font-size: 1.8rem;
+    }
+
+    .features ul {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+      list-style: none;
+      padding: 0;
+    }
+
+    .features li {
+      background: #f0f0f0;
+      padding: 20px;
+      border-radius: 8px;
       text-align: center;
     }
+
+    .cta {
+      text-align: center;
+      margin: 50px 0;
+    }
+
     .cta a {
-      background-color: #000;
+      display: inline-block;
+      background: #111;
       color: white;
-      text-decoration: none;
-      padding: 1rem 2rem;
+      padding: 15px 30px;
       font-size: 1.2rem;
       border-radius: 5px;
-      transition: background-color 0.3s;
+      text-decoration: none;
+      margin: 10px;
+      transition: background 0.3s ease;
     }
+
     .cta a:hover {
-      background-color: #444;
+      background: #333;
     }
+
     footer {
+      background: #222;
+      color: #aaa;
       text-align: center;
-      padding: 2rem;
+      padding: 20px;
       font-size: 0.9rem;
-      color: #777;
     }
   </style>
 </head>
 <body>
-  <header>
-    <h1>Casaco Masculino Premium</h1>
-    <p>Estilo, conforto e exclusividade para dias frios</p>
-  </header>
 
-  <div class="container">
-    <div class="gallery">
-      <img src="https://i.imgur.com/3O3vXlT.jpg" alt="Casaco Frente">
-      <img src="https://i.imgur.com/bOB0p3V.jpg" alt="Detalhes do Casaco">
-      <img src="https://i.imgur.com/XjAyCik.jpg" alt="Capuz e Cordões">
-    </div>
+<header>
+  <h1>Casaco Masculino Premium</h1>
+  <p>Conforto, estilo e proteção para o inverno</p>
+</header>
 
-    <div class="description">
-      <h2>Descrição do Produto</h2>
-      <p>
-        Apresentamos o casaco ideal para o homem moderno. Feito com materiais de alta qualidade, possui acabamento sofisticado,
-        forro térmico e design exclusivo. Ideal para climas frios e ocasiões em que o estilo é essencial.
-      </p>
-      <ul>
-        <li>Material: Poliéster premium, com forro interno quentinho</li>
-        <li>Fechamento em zíper resistente</li>
-        <li>Bolsos laterais com zíper</li>
-        <li>Capuz ajustável com cordões metálicos</li>
-        <li>Disponível nos tamanhos M, G, GG</li>
-      </ul>
-      <p class="price">R$ 160,00 ou 12x de R$ 15,53</p>
-    </div>
-
-    <div class="cta">
-      <a href="https://wa.me/5599999999999?text=Olá%2C+gostaria+de+comprar+o+casaco+masculino+premium." target="_blank">
-        Comprar agora pelo WhatsApp
-      </a>
+<div class="container">
+  <div class="highlight">
+    <img src="https://images.unsplash.com/photo-1617093727343-9643aee98b10?fit=crop&w=500&q=80" alt="Casaco Inverno Masculino">
+    <div class="text">
+      <h2>Elegância e Qualidade</h2>
+      <p>Este casaco foi projetado para os homens modernos que não abrem mão do estilo mesmo nos dias mais frios. Feito com materiais de alta qualidade, ele proporciona aquecimento superior sem comprometer o visual.</p>
     </div>
   </div>
 
-  <footer>
-    &copy; 2025 Casacos Premium. Todos os direitos reservados.
-  </footer>
+  <div class="features">
+    <h3>Características do Produto</h3>
+    <ul>
+      <li>Design acolchoado moderno</li>
+      <li>Fechamento com zíper reforçado</li>
+      <li>Capuz ajustável</li>
+      <li>Bolsos com zíper antifurto</li>
+      <li>Material resistente à água</li>
+      <li>Forro interno super macio</li>
+    </ul>
+  </div>
+
+  <div class="highlight" style="margin-top: 40px;">
+    <img src="https://images.unsplash.com/photo-1602810318611-4ee7de73e6d9?fit=crop&w=500&q=80" alt="Detalhes Casaco">
+    <div class="text">
+      <h2>Detalhes que Impressionam</h2>
+      <p>Desde o acabamento das costuras até os bolsos com zíper oculto, cada detalhe foi cuidadosamente planejado para unir funcionalidade e elegância.</p>
+    </div>
+  </div>
+
+  <div class="cta">
+    <a href="https://s.shopee.com.br/707Lo968XA" target="_blank">Comprar Agora Mesmo</a>
+    <a href="https://wa.me/5583996482876" target="_blank">Falar no WhatsApp</a>
+  </div>
+</div>
+
+<footer>
+  &copy; 2025 Casacos Premium. Todos os direitos reservados.
+</footer>
+
 </body>
 </html>
